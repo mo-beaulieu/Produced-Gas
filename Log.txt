@@ -7274,3 +7274,7 @@ PermissionError: [Errno 13] Permission denied: 'events.csv'
 2025-02-06 12:40:24.156428 - Code is complete
 -----------------------------------
 
+
+
+-----------------------------------
+2025-02-24 16:31:24.648416 - Starting Code
