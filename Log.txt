@@ -7465,3 +7465,44 @@ ValueError: Mime type rendering requires nbformat>=4.2.0 but it is not installed
 2025-06-02 15:06:25.570939 - Code is complete
 -----------------------------------
 
+
+
+-----------------------------------
+2025-06-03 10:15:17.262992 - Starting Code
+
+2025-06-03 10:15:19.557047
+Traceback (most recent call last):
+  File "C:\Users\MoBeaulieu\AppData\Local\Temp\ipykernel_6776\3059142529.py", line 100, in <module>
+    df = create_cut_wells_status_data()
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MoBeaulieu\AppData\Local\Temp\ipykernel_6776\4199663753.py", line 12, in create_cut_wells_status_data
+    df_well_info = pd.read_excel(os.path.join(rootDir, "Tags.xlsx"), sheet_name='high_gas_offenders')
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\MoBeaulieu\OneDrive - Suncor Energy Inc\Documents\python_projects_local\pg_script\pgenv\Lib\site-packages\pandas\io\excel\_base.py", line 495, in read_excel
+    io = ExcelFile(
+         ^^^^^^^^^^
+  File "c:\Users\MoBeaulieu\OneDrive - Suncor Energy Inc\Documents\python_projects_local\pg_script\pgenv\Lib\site-packages\pandas\io\excel\_base.py", line 1550, in __init__
+    ext = inspect_excel_format(
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\MoBeaulieu\OneDrive - Suncor Energy Inc\Documents\python_projects_local\pg_script\pgenv\Lib\site-packages\pandas\io\excel\_base.py", line 1402, in inspect_excel_format
+    with get_handle(
+         ^^^^^^^^^^^
+  File "c:\Users\MoBeaulieu\OneDrive - Suncor Energy Inc\Documents\python_projects_local\pg_script\pgenv\Lib\site-packages\pandas\io\common.py", line 882, in get_handle
+    handle = open(handle, ioargs.mode)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\MoBeaulieu\\OneDrive - Suncor Energy Inc\\Documents\\python_projects_local\\pg_script\\Tags.xlsx'
+
+
+-----------------------------------
+
+
+-----------------------------------
+2025-06-03 10:17:25.997431 - Starting Code
+
+2025-06-03 10:21:38.170209 - Code is complete
+-----------------------------------
+
+
+2025-06-03 11:45:59.975405 - Code is complete
+-----------------------------------
+
