@@ -7506,3 +7506,11 @@ PermissionError: [Errno 13] Permission denied: 'C:\\Users\\MoBeaulieu\\OneDrive 
 2025-06-03 11:45:59.975405 - Code is complete
 -----------------------------------
 
+
+
+-----------------------------------
+2025-06-11 16:00:16.887244 - Starting Code
+
+2025-06-11 16:07:29.167074 - Code is complete
+-----------------------------------
+
