@@ -7514,3 +7514,7 @@ PermissionError: [Errno 13] Permission denied: 'C:\\Users\\MoBeaulieu\\OneDrive 
 2025-06-11 16:07:29.167074 - Code is complete
 -----------------------------------
 
+
+
+-----------------------------------
+2025-06-12 06:40:50.770007 - Starting Code
