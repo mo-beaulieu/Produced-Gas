@@ -7550,3 +7550,111 @@ PermissionError: [Errno 13] Permission denied: 'C:\\Users\\MoBeaulieu\\OneDrive 
 2025-08-25 21:30:08.771913 - Code is complete
 -----------------------------------
 
+
+
+-----------------------------------
+2025-09-04 11:30:17.758445 - Starting Code
+
+
+-----------------------------------
+2025-09-04 11:30:36.273938 - Starting Code
+
+2025-09-04 11:30:41.435074
+Traceback (most recent call last):
+  File "C:\Users\MoBeaulieu\AppData\Local\Temp\ipykernel_30688\611953571.py", line 18, in <module>
+    df = create_sru_plot_png() # Pulls emulsion "field_emul", total plant gas "plant_sum", and SRU gas data "res_gas".
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MoBeaulieu\AppData\Local\Temp\ipykernel_30688\2122261193.py", line 49, in create_sru_plot_png
+    pt = PIPoint.FindPIPoint(piServer,tag.replace(" ",""))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at OSIsoft.AF.PI.PIException.ConvertAndThrowException(PIServer piServer, Exception ex, String message)
+   at OSIsoft.AF.PI.PIServer.RemoteConnect(AFConnectionPreference preference, NetworkCredential credential, PIAuthenticationMode authenticationMode)
+   at OSIsoft.AF.PI.PIServer.InternalConnect(Int32 numRetries, IWin32Window owner, AFConnectionPreference preference, NetworkCredential credential, PIAuthenticationMode authenticationMode, Boolean checkConnectingAsSameUser)
+   at OSIsoft.AF.PI.PIServer.AutoConnect(Boolean allowDirectConnect, Boolean force)
+   at OSIsoft.AF.PI.PIPoint.FindPIPoint(PIServer piServer, String pointName)
+
+
+-----------------------------------
+
+
+-----------------------------------
+2025-09-04 11:35:04.034651 - Starting Code
+
+2025-09-04 11:35:04.485280
+Traceback (most recent call last):
+  File "C:\Users\MoBeaulieu\AppData\Local\Temp\ipykernel_30688\611953571.py", line 18, in <module>
+    df = create_sru_plot_png() # Pulls emulsion "field_emul", total plant gas "plant_sum", and SRU gas data "res_gas".
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MoBeaulieu\AppData\Local\Temp\ipykernel_30688\1841818025.py", line 49, in create_sru_plot_png
+    pt = PIPoint.FindPIPoint(piServer,tag.replace(" ",""))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at OSIsoft.AF.PI.PIException.ConvertAndThrowException(PIServer piServer, Exception ex, String message)
+   at OSIsoft.AF.PI.PIServer.RemoteConnect(AFConnectionPreference preference, NetworkCredential credential, PIAuthenticationMode authenticationMode)
+   at OSIsoft.AF.PI.PIServer.InternalConnect(Int32 numRetries, IWin32Window owner, AFConnectionPreference preference, NetworkCredential credential, PIAuthenticationMode authenticationMode, Boolean checkConnectingAsSameUser)
+   at OSIsoft.AF.PI.PIServer.AutoConnect(Boolean allowDirectConnect, Boolean force)
+   at OSIsoft.AF.PI.PIPoint.FindPIPoint(PIServer piServer, String pointName)
+
+
+-----------------------------------
+
+2025-09-04 11:35:20.733339
+Traceback (most recent call last):
+  File "C:\Users\MoBeaulieu\AppData\Local\Temp\ipykernel_30688\611953571.py", line 18, in <module>
+    df = create_sru_plot_png() # Pulls emulsion "field_emul", total plant gas "plant_sum", and SRU gas data "res_gas".
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MoBeaulieu\AppData\Local\Temp\ipykernel_30688\1841818025.py", line 49, in create_sru_plot_png
+    pt = PIPoint.FindPIPoint(piServer,tag.replace(" ",""))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at OSIsoft.AF.PI.PIServer.CheckFailedServer(PIServerError& serverError)
+   at OSIsoft.AF.PI.PIServer.AutoConnect(Boolean allowDirectConnect, Boolean force)
+   at OSIsoft.AF.PI.PIPoint.FindPIPoint(PIServer piServer, String pointName)
+
+
+-----------------------------------
+
+
+-----------------------------------
+2025-09-04 11:46:44.485131 - Starting Code
+
+2025-09-04 11:46:44.918100
+Traceback (most recent call last):
+  File "C:\Users\MoBeaulieu\AppData\Local\Temp\ipykernel_30688\486405974.py", line 19, in <module>
+    df = create_sru_plot_png() # Pulls emulsion "field_emul", total plant gas "plant_sum", and SRU gas data "res_gas".
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MoBeaulieu\AppData\Local\Temp\ipykernel_30688\1841818025.py", line 49, in create_sru_plot_png
+    pt = PIPoint.FindPIPoint(piServer,tag.replace(" ",""))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at OSIsoft.AF.PI.PIException.ConvertAndThrowException(PIServer piServer, Exception ex, String message)
+   at OSIsoft.AF.PI.PIServer.RemoteConnect(AFConnectionPreference preference, NetworkCredential credential, PIAuthenticationMode authenticationMode)
+   at OSIsoft.AF.PI.PIServer.InternalConnect(Int32 numRetries, IWin32Window owner, AFConnectionPreference preference, NetworkCredential credential, PIAuthenticationMode authenticationMode, Boolean checkConnectingAsSameUser)
+   at OSIsoft.AF.PI.PIServer.AutoConnect(Boolean allowDirectConnect, Boolean force)
+   at OSIsoft.AF.PI.PIPoint.FindPIPoint(PIServer piServer, String pointName)
+
+
+-----------------------------------
+
+
+-----------------------------------
+2025-09-04 11:59:44.537581 - Starting Code
+
+2025-09-04 11:59:53.785161
+Traceback (most recent call last):
+  File "C:\Users\MoBeaulieu\AppData\Local\Temp\ipykernel_2964\494089201.py", line 18, in <module>
+    df = create_sru_plot_png() # Pulls emulsion "field_emul", total plant gas "plant_sum", and SRU gas data "res_gas".
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MoBeaulieu\AppData\Local\Temp\ipykernel_2964\2122261193.py", line 49, in create_sru_plot_png
+    pt = PIPoint.FindPIPoint(piServer,tag.replace(" ",""))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at OSIsoft.AF.PI.PIException.ConvertAndThrowException(PIServer piServer, Exception ex, String message)
+   at OSIsoft.AF.PI.PIServer.RemoteConnect(AFConnectionPreference preference, NetworkCredential credential, PIAuthenticationMode authenticationMode)
+   at OSIsoft.AF.PI.PIServer.InternalConnect(Int32 numRetries, IWin32Window owner, AFConnectionPreference preference, NetworkCredential credential, PIAuthenticationMode authenticationMode, Boolean checkConnectingAsSameUser)
+   at OSIsoft.AF.PI.PIServer.AutoConnect(Boolean allowDirectConnect, Boolean force)
+   at OSIsoft.AF.PI.PIPoint.FindPIPoint(PIServer piServer, String pointName)
+
+
+-----------------------------------
